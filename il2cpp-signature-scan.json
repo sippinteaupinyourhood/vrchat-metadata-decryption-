@@ -1,0 +1,1099 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-15T00:39:20.6002312Z",
+  "installDir": "",
+  "database": "",
+  "gameAssembly": {
+    "path": "",
+    "sha256": "2F300F6CA5DB287E64CF0FFC2EE16B332635DC169583D78A4581B0A2FD0F6043"
+  },
+  "summary": {
+    "resolved": 96,
+    "ambiguous": 1,
+    "missing": 0
+  },
+  "resolutions": [
+    {
+      "api": "il2cpp_add_internal_call",
+      "previousExport": "pxitquiCbAt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA238B0",
+      "ida": "0x180A238B0",
+      "candidates": [
+        "0xA238B0"
+      ]
+    },
+    {
+      "api": "il2cpp_array_length",
+      "previousExport": "h_vTLzXxDMV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x144A0",
+      "ida": "0x1800144A0",
+      "candidates": [
+        "0x144A0"
+      ]
+    },
+    {
+      "api": "il2cpp_array_new_full",
+      "previousExport": "lkwapqymXQG",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23990",
+      "ida": "0x180A23990",
+      "candidates": [
+        "0xA23990"
+      ]
+    },
+    {
+      "api": "il2cpp_array_new_specific",
+      "previousExport": "ZziN_KxnvtA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23980",
+      "ida": "0x180A23980",
+      "candidates": [
+        "0xA23980"
+      ]
+    },
+    {
+      "api": "il2cpp_assembly_get_image",
+      "previousExport": "aPxNOvzjasB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xBE390",
+      "ida": "0x1800BE390",
+      "candidates": [
+        "0xBE390"
+      ]
+    },
+    {
+      "api": "il2cpp_bounded_array_class_get",
+      "previousExport": "aEbWLIxJiMp",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA239A0",
+      "ida": "0x180A239A0",
+      "candidates": [
+        "0xA239A0"
+      ]
+    },
+    {
+      "api": "il2cpp_capture_memory_snapshot",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_class_array_element_size",
+      "previousExport": "TCWcqmPwq_U",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA239B0",
+      "ida": "0x180A239B0",
+      "candidates": [
+        "0xA239B0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_from_il2cpp_type",
+      "previousExport": "jsatbatvaFn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23AC0",
+      "ida": "0x180A23AC0",
+      "candidates": [
+        "0xA23AC0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_from_name",
+      "previousExport": "GIiXFxPrkrP",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23AD0",
+      "ida": "0x180A23AD0",
+      "candidates": [
+        "0xA23AD0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_from_type",
+      "previousExport": "XzPV_QEtSMi",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23AC0",
+      "ida": "0x180A23AC0",
+      "candidates": [
+        "0xA23AC0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_element_class",
+      "previousExport": "jOSDixYOLrm",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA239C0",
+      "ida": "0x180A239C0",
+      "candidates": [
+        "0xA239C0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_field_from_name",
+      "previousExport": "rVlLgNksSLn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23D50",
+      "ida": "0x180A23D50",
+      "candidates": [
+        "0xA23D50"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_fields",
+      "previousExport": "baIHFTOBDeM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23C10",
+      "ida": "0x180A23C10",
+      "candidates": [
+        "0xA23C10"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_image",
+      "previousExport": "W_AhjrUUvcA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x40F0",
+      "ida": "0x1800040F0",
+      "candidates": [
+        "0x40F0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_interfaces",
+      "previousExport": "OfYRWVorWbz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23B70",
+      "ida": "0x180A23B70",
+      "candidates": [
+        "0xA23B70"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_methods",
+      "previousExport": "QtywfytjhSm",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23D60",
+      "ida": "0x180A23D60",
+      "candidates": [
+        "0xA23D60"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_name",
+      "previousExport": "WWyYjoyROZM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x10C7C0",
+      "ida": "0x18010C7C0",
+      "candidates": [
+        "0x10C7C0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_namespace",
+      "previousExport": "AugQqkWCzjv",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76030",
+      "ida": "0x180076030",
+      "candidates": [
+        "0x76030"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_parent",
+      "previousExport": "CTPbMJZIFPN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76F20",
+      "ida": "0x180076F20",
+      "candidates": [
+        "0x76F20"
+      ]
+    },
+    {
+      "api": "il2cpp_class_get_type",
+      "previousExport": "hetjkBqhHEF",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x8E64F0",
+      "ida": "0x1808E64F0",
+      "candidates": [
+        "0x8E64F0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_has_parent",
+      "previousExport": "YFCpoepUZvN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A60",
+      "ida": "0x180A23A60",
+      "candidates": [
+        "0xA23A60"
+      ]
+    },
+    {
+      "api": "il2cpp_class_instance_size",
+      "previousExport": "kWSpedKrFAi",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23E00",
+      "ida": "0x180A23E00",
+      "candidates": [
+        "0xA23E00"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_abstract",
+      "previousExport": "STWmHXpViDg",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23E50",
+      "ida": "0x180A23E50",
+      "candidates": [
+        "0xA23E50"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_assignable_from",
+      "previousExport": "LWNgsCXkzBl",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A40",
+      "ida": "0x180A23A40",
+      "candidates": [
+        "0xA23A40"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_enum",
+      "previousExport": "hvhctcJgnJt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A20",
+      "ida": "0x180A23A20",
+      "candidates": [
+        "0xA23A20"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_generic",
+      "previousExport": "OhgPJrsbLIA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A30",
+      "ida": "0x180A23A30",
+      "candidates": [
+        "0xA23A30"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_interface",
+      "previousExport": "XzPV_QEtSMi",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23AC0",
+      "ida": "0x180A23AC0",
+      "candidates": [
+        "0xA23AC0"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_subclass_of",
+      "previousExport": "OOpREPOIxEe",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A50",
+      "ida": "0x180A23A50",
+      "candidates": [
+        "0xA23A50"
+      ]
+    },
+    {
+      "api": "il2cpp_class_is_valuetype",
+      "previousExport": "sArWrWivyrn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23A10",
+      "ida": "0x180A23A10",
+      "candidates": [
+        "0xA23A10"
+      ]
+    },
+    {
+      "api": "il2cpp_class_num_fields",
+      "previousExport": "fVwBPLinAVu",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23E10",
+      "ida": "0x180A23E10",
+      "candidates": [
+        "0xA23E10"
+      ]
+    },
+    {
+      "api": "il2cpp_class_value_size",
+      "previousExport": "RdsMjipEZSI",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23E30",
+      "ida": "0x180A23E30",
+      "candidates": [
+        "0xA23E30"
+      ]
+    },
+    {
+      "api": "il2cpp_current_thread_get_frame_at",
+      "previousExport": "mjlycZqw_uy",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25A20",
+      "ida": "0x180A25A20",
+      "candidates": [
+        "0xA25A20"
+      ]
+    },
+    {
+      "api": "il2cpp_debugger_set_agent_options",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_domain_get",
+      "previousExport": "aUnaPwCExok",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA238A0",
+      "ida": "0x180A238A0",
+      "candidates": [
+        "0xA238A0"
+      ]
+    },
+    {
+      "api": "il2cpp_domain_get_assemblies",
+      "previousExport": "SToktayWWAW",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24400",
+      "ida": "0x180A24400",
+      "candidates": [
+        "0xA24400"
+      ]
+    },
+    {
+      "api": "il2cpp_exception_from_name_msg",
+      "previousExport": "NRhDzSuzGjA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24430",
+      "ida": "0x180A24430",
+      "candidates": [
+        "0xA24430"
+      ]
+    },
+    {
+      "api": "il2cpp_field_get_name",
+      "previousExport": "KINusgClTkV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76030",
+      "ida": "0x180076030",
+      "candidates": [
+        "0x76030"
+      ]
+    },
+    {
+      "api": "il2cpp_field_get_parent",
+      "previousExport": "RNMBpOZJotV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76F20",
+      "ida": "0x180076F20",
+      "candidates": [
+        "0x76F20"
+      ]
+    },
+    {
+      "api": "il2cpp_field_get_type",
+      "previousExport": "etjHTCQWQtf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7D160",
+      "ida": "0x18007D160",
+      "candidates": [
+        "0x7D160"
+      ]
+    },
+    {
+      "api": "il2cpp_field_get_value",
+      "previousExport": "YmyUhEvrMwc",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24730",
+      "ida": "0x180A24730",
+      "candidates": [
+        "0xA24730"
+      ]
+    },
+    {
+      "api": "il2cpp_field_get_value_object",
+      "previousExport": "ioPVfBLeYJL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24A60",
+      "ida": "0x180A24A60",
+      "candidates": [
+        "0xA24A60"
+      ]
+    },
+    {
+      "api": "il2cpp_free",
+      "previousExport": "il2cpp_free",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA238E0",
+      "ida": "0x180A238E0",
+      "candidates": [
+        "0xA238E0"
+      ]
+    },
+    {
+      "api": "il2cpp_free_captured_memory_snapshot",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_gc_collect",
+      "previousExport": "VrjQQchZfpF",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA065D0",
+      "ida": "0x180A065D0",
+      "candidates": [
+        "0xA065D0"
+      ]
+    },
+    {
+      "api": "il2cpp_gc_is_disabled",
+      "previousExport": "npwlrd__dOT",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24AB0",
+      "ida": "0x180A24AB0",
+      "candidates": [
+        "0xA24AB0"
+      ]
+    },
+    {
+      "api": "il2cpp_gc_wbarrier_set_field",
+      "previousExport": "tGInsXdvXKR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24D40",
+      "ida": "0x180A24D40",
+      "candidates": [
+        "0xA24D40"
+      ]
+    },
+    {
+      "api": "il2cpp_gchandle_free",
+      "previousExport": "YnCDgLFQZyU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24DA0",
+      "ida": "0x180A24DA0",
+      "candidates": [
+        "0xA24DA0"
+      ]
+    },
+    {
+      "api": "il2cpp_gchandle_get_target",
+      "previousExport": "il2cpp_gchandle_get_target",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24D00",
+      "ida": "0x180A24D00",
+      "candidates": [
+        "0xA24D00"
+      ]
+    },
+    {
+      "api": "il2cpp_gchandle_new",
+      "previousExport": "yhXoStquuJF",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24CB0",
+      "ida": "0x180A24CB0",
+      "candidates": [
+        "0xA24CB0"
+      ]
+    },
+    {
+      "api": "il2cpp_gchandle_new_weakref",
+      "previousExport": "KsFHhhXHRIy",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24CD0",
+      "ida": "0x180A24CD0",
+      "candidates": [
+        "0xA24CD0"
+      ]
+    },
+    {
+      "api": "il2cpp_get_corlib",
+      "previousExport": "rgDrACcFkNn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24BC0",
+      "ida": "0x180A24BC0",
+      "candidates": [
+        "0xA24BC0"
+      ]
+    },
+    {
+      "api": "il2cpp_get_exception_argument_null",
+      "previousExport": "hhjPuFoChax",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24440",
+      "ida": "0x180A24440",
+      "candidates": [
+        "0xA24440"
+      ]
+    },
+    {
+      "api": "il2cpp_image_get_name",
+      "previousExport": "AEtmUpm_QVO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7D160",
+      "ida": "0x18007D160",
+      "candidates": [
+        "0x7D160"
+      ]
+    },
+    {
+      "api": "il2cpp_init",
+      "previousExport": "il2cpp_init",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA23480",
+      "ida": "0x180A23480",
+      "candidates": [
+        "0xA23480"
+      ]
+    },
+    {
+      "api": "il2cpp_is_debugger_attached",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_method_get_class",
+      "previousExport": "QYHcRVGQoNi",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76F20",
+      "ida": "0x180076F20",
+      "candidates": [
+        "0x76F20"
+      ]
+    },
+    {
+      "api": "il2cpp_method_get_declaring_type",
+      "previousExport": "mBPELOPqJXY",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76F20",
+      "ida": "0x180076F20",
+      "candidates": [
+        "0x76F20"
+      ]
+    },
+    {
+      "api": "il2cpp_method_get_name",
+      "previousExport": "OERsNnZCNdE",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76030",
+      "ida": "0x180076030",
+      "candidates": [
+        "0x76030"
+      ]
+    },
+    {
+      "api": "il2cpp_method_get_return_type",
+      "previousExport": "AEtmUpm_QVO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7D160",
+      "ida": "0x18007D160",
+      "candidates": [
+        "0x7D160"
+      ]
+    },
+    {
+      "api": "il2cpp_method_get_token",
+      "previousExport": "NSfkCKoFcZZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA1780",
+      "ida": "0x1800A1780",
+      "candidates": [
+        "0xA1780"
+      ]
+    },
+    {
+      "api": "il2cpp_monitor_enter",
+      "previousExport": "oyXDuxyisdA",
+      "status": "ambiguous",
+      "matchCount": 17,
+      "rva": null,
+      "ida": null,
+      "candidates": [
+        "0x3C90",
+        "0x8B320",
+        "0x8B330",
+        "0x8B340",
+        "0x8B350",
+        "0x8B360",
+        "0xDD7F0",
+        "0xDD800",
+        "0xDD810",
+        "0xDD820",
+        "0xE6860",
+        "0x114CEF",
+        "0x114CF0",
+        "0x114D00",
+        "0x114D10",
+        "0x11ABB0"
+      ]
+    },
+    {
+      "api": "il2cpp_monitor_exit",
+      "previousExport": "kcbzOnPPLQb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA254C0",
+      "ida": "0x180A254C0",
+      "candidates": [
+        "0xA254C0"
+      ]
+    },
+    {
+      "api": "il2cpp_monitor_pulse",
+      "previousExport": "qNtSYehSC_v",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA254D0",
+      "ida": "0x180A254D0",
+      "candidates": [
+        "0xA254D0"
+      ]
+    },
+    {
+      "api": "il2cpp_monitor_pulse_all",
+      "previousExport": "JGpshtEZJqY",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA254E0",
+      "ida": "0x180A254E0",
+      "candidates": [
+        "0xA254E0"
+      ]
+    },
+    {
+      "api": "il2cpp_monitor_try_enter",
+      "previousExport": "nYJ_wJgPdTa",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA254B0",
+      "ida": "0x180A254B0",
+      "candidates": [
+        "0xA254B0"
+      ]
+    },
+    {
+      "api": "il2cpp_object_get_virtual_method",
+      "previousExport": "zDjVTzzCfOS",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25460",
+      "ida": "0x180A25460",
+      "candidates": [
+        "0xA25460"
+      ]
+    },
+    {
+      "api": "il2cpp_object_new",
+      "previousExport": "BXKJvvmFEKR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25470",
+      "ida": "0x180A25470",
+      "candidates": [
+        "0xA25470"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install_allocation",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install_enter_leave",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install_fileio",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install_gc",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_profiler_install_thread",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_property_get_get_method",
+      "previousExport": "gAcBZhlINEl",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24EE0",
+      "ida": "0x180A24EE0",
+      "candidates": [
+        "0xA24EE0"
+      ]
+    },
+    {
+      "api": "il2cpp_property_get_name",
+      "previousExport": "sFxauRauhiP",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76030",
+      "ida": "0x180076030",
+      "candidates": [
+        "0x76030"
+      ]
+    },
+    {
+      "api": "il2cpp_resolve_icall",
+      "previousExport": "qMVbRwccaVN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA238C0",
+      "ida": "0x180A238C0",
+      "candidates": [
+        "0xA238C0"
+      ]
+    },
+    {
+      "api": "il2cpp_runtime_class_init",
+      "previousExport": "lhwcxEQoEfH",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25570",
+      "ida": "0x180A25570",
+      "candidates": [
+        "0xA25570"
+      ]
+    },
+    {
+      "api": "il2cpp_runtime_invoke",
+      "previousExport": "oBGsYjJdmzU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25560",
+      "ida": "0x180A25560",
+      "candidates": [
+        "0xA25560"
+      ]
+    },
+    {
+      "api": "il2cpp_runtime_invoke_convert_args",
+      "previousExport": "colTXgxBNUV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25550",
+      "ida": "0x180A25550",
+      "candidates": [
+        "0xA25550"
+      ]
+    },
+    {
+      "api": "il2cpp_runtime_object_init",
+      "previousExport": "kazex_Ijzhn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25580",
+      "ida": "0x180A25580",
+      "candidates": [
+        "0xA25580"
+      ]
+    },
+    {
+      "api": "il2cpp_runtime_object_init_exception",
+      "previousExport": "TwxPHzfmFGk",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25590",
+      "ida": "0x180A25590",
+      "candidates": [
+        "0xA25590"
+      ]
+    },
+    {
+      "api": "il2cpp_stats_dump_to_file",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_string_chars",
+      "previousExport": "ObZAQsspqzt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x8DA310",
+      "ida": "0x1808DA310",
+      "candidates": [
+        "0x8DA310"
+      ]
+    },
+    {
+      "api": "il2cpp_string_length",
+      "previousExport": "FJTvsCFaJMZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x76040",
+      "ida": "0x180076040",
+      "candidates": [
+        "0x76040"
+      ]
+    },
+    {
+      "api": "il2cpp_string_new",
+      "previousExport": "lSeVdfjHmYS",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25610",
+      "ida": "0x180A25610",
+      "candidates": [
+        "0xA25610"
+      ]
+    },
+    {
+      "api": "il2cpp_string_new_utf16",
+      "previousExport": "AwVDLCtHMIB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA255C0",
+      "ida": "0x180A255C0",
+      "candidates": [
+        "0xA255C0"
+      ]
+    },
+    {
+      "api": "il2cpp_thread_attach",
+      "previousExport": "jrxmnVzHCiN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25750",
+      "ida": "0x180A25750",
+      "candidates": [
+        "0xA25750"
+      ]
+    },
+    {
+      "api": "il2cpp_thread_current",
+      "previousExport": "sdwCiSmJKwq",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA24A90",
+      "ida": "0x180A24A90",
+      "candidates": [
+        "0xA24A90"
+      ]
+    },
+    {
+      "api": "il2cpp_thread_detach",
+      "previousExport": "yHfsvPGJEQl",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25760",
+      "ida": "0x180A25760",
+      "candidates": [
+        "0xA25760"
+      ]
+    },
+    {
+      "api": "il2cpp_type_get_object",
+      "previousExport": "vxafr_czmQv",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25C50",
+      "ida": "0x180A25C50",
+      "candidates": [
+        "0xA25C50"
+      ]
+    },
+    {
+      "api": "il2cpp_unity_install_unitytls_interface",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_unity_liveness_calculation_begin",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_unity_liveness_calculation_end",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_unity_liveness_calculation_from_root",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_unity_liveness_calculation_from_statics",
+      "previousExport": "XgKrCtTBLkt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1E6170",
+      "ida": "0x1801E6170",
+      "candidates": [
+        "0x1E6170"
+      ]
+    },
+    {
+      "api": "il2cpp_value_box",
+      "previousExport": "dUJvgfcCkwL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA25490",
+      "ida": "0x180A25490",
+      "candidates": [
+        "0xA25490"
+      ]
+    }
+  ]
+}
