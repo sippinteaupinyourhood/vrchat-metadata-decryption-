@@ -9,8 +9,7 @@
   },
   "summary": {
     "resolved": 71,
-    "implemented": 11,
-    "unresolved": 16
+    "implemented": 27
   },
   "resolutions": [
     {
@@ -93,12 +92,12 @@
       "api": "il2cpp_capture_memory_snapshot",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_class_array_element_size",
@@ -434,12 +433,12 @@
       "api": "il2cpp_debugger_set_agent_options",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_domain_get",
@@ -556,12 +555,12 @@
       "api": "il2cpp_free_captured_memory_snapshot",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_gc_collect",
@@ -710,12 +709,12 @@
       "api": "il2cpp_is_debugger_attached",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_method_get_class",
@@ -875,67 +874,67 @@
       "api": "il2cpp_profiler_install",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_profiler_install_allocation",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_profiler_install_enter_leave",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_profiler_install_fileio",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_profiler_install_gc",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_profiler_install_thread",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_property_get_get_method",
@@ -1042,12 +1041,12 @@
       "api": "il2cpp_stats_dump_to_file",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_string_chars",
@@ -1157,56 +1156,56 @@
       "api": "il2cpp_unity_install_unitytls_interface",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_begin",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_end",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_from_root",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_from_statics",
       "previousExport": "XgKrCtTBLkt",
       "export": null,
-      "status": "unresolved",
+      "status": "implemented",
       "matchCount": 0,
       "rva": null,
       "ida": null,
       "candidates": [],
-      "resolutionSource": "not-required-by-core-runtime"
+      "resolutionSource": "managed-runtime-layout"
     },
     {
       "api": "il2cpp_value_box",
