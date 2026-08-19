@@ -1,20 +1,18 @@
 {
-  "schema": 1,
-  "generatedUtc": "2026-08-18T02:26:16.3101854Z",
+  "schema": 2,
   "installDir": ".",
-  "database": "il2cpp-signatures.json",
+  "database": "onyx-exact-build",
   "gameAssembly": {
     "path": "GameAssembly.dll",
     "sha256": "46856D668C1B93EDAC76C34A297460C5D0A3A0698B766F2A34F3C3DDB0517E94"
   },
   "summary": {
-    "resolved": 71,
-    "implemented": 27
+    "resolved": 232,
+    "implemented": 0
   },
   "resolutions": [
     {
       "api": "il2cpp_add_internal_call",
-      "previousExport": "pxitquiCbAt",
       "export": "JvFhDlJlEuT",
       "status": "resolved",
       "matchCount": 1,
@@ -23,85 +21,46 @@
       "candidates": [
         "0xAAE5A0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_array_length",
-      "previousExport": "h_vTLzXxDMV",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_array_new_full",
-      "previousExport": "lkwapqymXQG",
-      "export": "zzhqCjPSvuJ",
+      "api": "il2cpp_alloc",
+      "export": "aothbNdGIwd",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE680",
-      "ida": "0x180AAE680",
+      "rva": "0xAAE5C0",
+      "ida": "0x180AAE5C0",
       "candidates": [
-        "0xAAE680"
+        "0xAAE5C0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_array_new_specific",
-      "previousExport": "ZziN_KxnvtA",
-      "export": "LBltTBSPshU",
+      "api": "il2cpp_allocation_granularity",
+      "export": "JSyUBXMpONK",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE670",
-      "ida": "0x180AAE670",
+      "rva": "0x14C890",
+      "ida": "0x18014C890",
       "candidates": [
-        "0xAAE670"
+        "0x14C890"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_assembly_get_image",
-      "previousExport": "aPxNOvzjasB",
-      "export": "IINmxjdVsAc",
+      "api": "il2cpp_array_class_get",
+      "export": "G_aVghBH_un",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xABA70",
-      "ida": "0x1800ABA70",
+      "rva": "0xAAE5E0",
+      "ida": "0x180AAE5E0",
       "candidates": [
-        "0xABA70"
+        "0xAAE5E0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_bounded_array_class_get",
-      "previousExport": "aEbWLIxJiMp",
-      "export": "rytNGicHZVZ",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE690",
-      "ida": "0x180AAE690",
-      "candidates": [
-        "0xAAE690"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_capture_memory_snapshot",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_class_array_element_size",
-      "previousExport": "TCWcqmPwq_U",
+      "api": "il2cpp_array_element_size",
       "export": "nTKazuUmOzK",
       "status": "resolved",
       "matchCount": 1,
@@ -110,50 +69,130 @@
       "candidates": [
         "0xAAE6A0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_from_il2cpp_type",
-      "previousExport": "jsatbatvaFn",
-      "export": "ECUqLPKsGzh",
+      "api": "il2cpp_array_get_byte_length",
+      "export": "yfoslaItPnT",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE7B0",
-      "ida": "0x180AAE7B0",
+      "rva": "0xAAE5F0",
+      "ida": "0x180AAE5F0",
       "candidates": [
-        "0xAAE7B0"
+        "0xAAE5F0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_from_name",
-      "previousExport": "GIiXFxPrkrP",
-      "export": "aOBBYlSPOaN",
+      "api": "il2cpp_array_length",
+      "export": "yttufOhBbtm",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE7C0",
-      "ida": "0x180AAE7C0",
+      "rva": "0x150B0",
+      "ida": "0x1800150B0",
       "candidates": [
-        "0xAAE7C0"
+        "0x150B0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_from_type",
-      "previousExport": "XzPV_QEtSMi",
-      "export": "ECUqLPKsGzh",
+      "api": "il2cpp_array_new",
+      "export": "bkYAfOuInEH",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE7B0",
-      "ida": "0x180AAE7B0",
+      "rva": "0xAAE640",
+      "ida": "0x180AAE640",
       "candidates": [
-        "0xAAE7B0"
+        "0xAAE640"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_get_element_class",
-      "previousExport": "jOSDixYOLrm",
+      "api": "il2cpp_array_new_full",
+      "export": "zzhqCjPSvuJ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE680",
+      "ida": "0x180AAE680",
+      "candidates": [
+        "0xAAE680"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_array_new_specific",
+      "export": "LBltTBSPshU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE670",
+      "ida": "0x180AAE670",
+      "candidates": [
+        "0xAAE670"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_array_object_header_size",
+      "export": "wQFkKQRXPsu",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF7A0",
+      "ida": "0x180AAF7A0",
+      "candidates": [
+        "0xAAF7A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_assembly_get_image",
+      "export": "bpbZmcGasEt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x40F0",
+      "ida": "0x1800040F0",
+      "candidates": [
+        "0x40F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_bounded_array_class_get",
+      "export": "rytNGicHZVZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE690",
+      "ida": "0x180AAE690",
+      "candidates": [
+        "0xAAE690"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_capture_memory_snapshot",
+      "export": "OKZvQuImmyx",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0970",
+      "ida": "0x180AB0970",
+      "candidates": [
+        "0xAB0970"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_array_element_size",
+      "export": "tCCUCjaXvr_",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA40",
+      "ida": "0x180AAEA40",
+      "candidates": [
+        "0xAAEA40"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_enum_basetype",
       "export": "jnARKkncjcT",
       "status": "resolved",
       "matchCount": 1,
@@ -162,200 +201,22 @@
       "candidates": [
         "0xAAE6B0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_get_field_from_name",
-      "previousExport": "rVlLgNksSLn",
-      "export": "B_qiMXmEpwf",
+      "api": "il2cpp_class_for_each",
+      "export": "KmkDdTFrpjI",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE920",
-      "ida": "0x180AAE920",
+      "rva": "0xAB0DE0",
+      "ida": "0x180AB0DE0",
       "candidates": [
-        "0xAAE920"
+        "0xAB0DE0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_class_get_fields",
-      "previousExport": "baIHFTOBDeM",
-      "export": "IVjDwejqCp_",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE900",
-      "ida": "0x180AAE900",
-      "candidates": [
-        "0xAAE900"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_get_image",
-      "previousExport": "W_AhjrUUvcA",
-      "export": "DuKqzASuDkP",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x40F0",
-      "ida": "0x1800040F0",
-      "candidates": [
-        "0x40F0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_get_interfaces",
-      "previousExport": "OfYRWVorWbz",
-      "export": "npApjJKKUuO",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE870",
-      "ida": "0x180AAE870",
-      "candidates": [
-        "0xAAE870"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_get_methods",
-      "previousExport": "QtywfytjhSm",
-      "export": "HNnkwquwBSX",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE930",
-      "ida": "0x180AAE930",
-      "candidates": [
-        "0xAAE930"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_get_name",
-      "previousExport": "WWyYjoyROZM",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_class_get_namespace",
-      "previousExport": "AugQqkWCzjv",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_class_get_parent",
-      "previousExport": "CTPbMJZIFPN",
-      "export": "BmCgtBkwLob",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x7A850",
-      "ida": "0x18007A850",
-      "candidates": [
-        "0x7A850"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_get_type",
-      "previousExport": "hetjkBqhHEF",
-      "export": "zTnLSRwoUWN",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x94B4A0",
-      "ida": "0x18094B4A0",
-      "candidates": [
-        "0x94B4A0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_has_parent",
-      "previousExport": "YFCpoepUZvN",
-      "export": "FoTxyMOOWtF",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE750",
-      "ida": "0x180AAE750",
-      "candidates": [
-        "0xAAE750"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_instance_size",
-      "previousExport": "kWSpedKrFAi",
-      "export": "orMLNDIkseG",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE9C0",
-      "ida": "0x180AAE9C0",
-      "candidates": [
-        "0xAAE9C0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_is_abstract",
-      "previousExport": "STWmHXpViDg",
-      "export": "KsolSqQzCJT",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAEA10",
-      "ida": "0x180AAEA10",
-      "candidates": [
-        "0xAAEA10"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_is_assignable_from",
-      "previousExport": "LWNgsCXkzBl",
-      "export": "HKwZItZhWVd",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE730",
-      "ida": "0x180AAE730",
-      "candidates": [
-        "0xAAE730"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_is_enum",
-      "previousExport": "hvhctcJgnJt",
-      "export": "MNlemQXZQAE",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE710",
-      "ida": "0x180AAE710",
-      "candidates": [
-        "0xAAE710"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_class_is_generic",
-      "previousExport": "OhgPJrsbLIA",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_class_is_interface",
-      "previousExport": "XzPV_QEtSMi",
+      "api": "il2cpp_class_from_il2cpp_type",
       "export": "ECUqLPKsGzh",
       "status": "resolved",
       "matchCount": 1,
@@ -364,11 +225,490 @@
       "candidates": [
         "0xAAE7B0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_from_name",
+      "export": "aOBBYlSPOaN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE7C0",
+      "ida": "0x180AAE7C0",
+      "candidates": [
+        "0xAAE7C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_from_system_type",
+      "export": "QtnsRQNovaw",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE6D0",
+      "ida": "0x180AAE6D0",
+      "candidates": [
+        "0xAAE6D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_from_type",
+      "export": "ECUqLPKsGzh",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE7B0",
+      "ida": "0x180AAE7B0",
+      "candidates": [
+        "0xAAE7B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_assemblyname",
+      "export": "qTpHhrOmPIJ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB50",
+      "ida": "0x180AAEB50",
+      "candidates": [
+        "0xAAEB50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_bitmap",
+      "export": "JwfRbPNwlJk",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEBA0",
+      "ida": "0x180AAEBA0",
+      "candidates": [
+        "0xAAEBA0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_bitmap_size",
+      "export": "KrbVlIu_dQI",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB80",
+      "ida": "0x180AAEB80",
+      "candidates": [
+        "0xAAEB80"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_data_size",
+      "export": "Xrji_UvNs_d",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB70",
+      "ida": "0x180AAEB70",
+      "candidates": [
+        "0xAAEB70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_declaring_type",
+      "export": "IINmxjdVsAc",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xABA70",
+      "ida": "0x1800ABA70",
+      "candidates": [
+        "0xABA70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_element_class",
+      "export": "KnIRRdHoRuo",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xABAF0",
+      "ida": "0x1800ABAF0",
+      "candidates": [
+        "0xABAF0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_events",
+      "export": "KRAjomZXYPy",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE7D0",
+      "ida": "0x180AAE7D0",
+      "candidates": [
+        "0xAAE7D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_field_from_name",
+      "export": "B_qiMXmEpwf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE920",
+      "ida": "0x180AAE920",
+      "candidates": [
+        "0xAAE920"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_fields",
+      "export": "NnUgnFASjZl",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE7E0",
+      "ida": "0x180AAE7E0",
+      "candidates": [
+        "0xAAE7E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_flags",
+      "export": "KYUGJwDwNKD",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA00",
+      "ida": "0x180AAEA00",
+      "candidates": [
+        "0xAAEA00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_image",
+      "export": "bpbZmcGasEt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x40F0",
+      "ida": "0x1800040F0",
+      "candidates": [
+        "0x40F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_interfaces",
+      "export": "QKWWTobOjEx",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE880",
+      "ida": "0x180AAE880",
+      "candidates": [
+        "0xAAE880"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_method_from_name",
+      "export": "UtgfBGcqzUC",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE9B0",
+      "ida": "0x180AAE9B0",
+      "candidates": [
+        "0xAAE9B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_methods",
+      "export": "HNnkwquwBSX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE930",
+      "ida": "0x180AAE930",
+      "candidates": [
+        "0xAAE930"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_name",
+      "export": "dgYXa_mduNh",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xABC90",
+      "ida": "0x1800ABC90",
+      "candidates": [
+        "0xABC90"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_namespace",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_nested_types",
+      "export": "npApjJKKUuO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE870",
+      "ida": "0x180AAE870",
+      "candidates": [
+        "0xAAE870"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_parent",
+      "export": "fuIEbponSru",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA8F60",
+      "ida": "0x1800A8F60",
+      "candidates": [
+        "0xA8F60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_properties",
+      "export": "IVjDwejqCp_",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE900",
+      "ida": "0x180AAE900",
+      "candidates": [
+        "0xAAE900"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_property_from_name",
+      "export": "EpavreEv_Rx",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE910",
+      "ida": "0x180AAE910",
+      "candidates": [
+        "0xAAE910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_rank",
+      "export": "bICGTUKhFRC",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB60",
+      "ida": "0x180AAEB60",
+      "candidates": [
+        "0xAAEB60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_static_field_data",
+      "export": "CxNGwPxPhtb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4120",
+      "ida": "0x180004120",
+      "candidates": [
+        "0x4120"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_type",
+      "export": "zTnLSRwoUWN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x94B4A0",
+      "ida": "0x18094B4A0",
+      "candidates": [
+        "0x94B4A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_type_token",
+      "export": "DNSiIcUYiVo",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA50",
+      "ida": "0x180AAEA50",
+      "candidates": [
+        "0xAAEA50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_get_userdata_offset",
+      "export": "ycYzrhwvyMg",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x142C90",
+      "ida": "0x180142C90",
+      "candidates": [
+        "0x142C90"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_has_attribute",
+      "export": "sXGLbRb_cLn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA60",
+      "ida": "0x180AAEA60",
+      "candidates": [
+        "0xAAEA60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_has_parent",
+      "export": "FoTxyMOOWtF",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE750",
+      "ida": "0x180AAE750",
+      "candidates": [
+        "0xAAE750"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_has_references",
+      "export": "mNNbgAJkREy",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB00",
+      "ida": "0x180AAEB00",
+      "candidates": [
+        "0xAAEB00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_instance_size",
+      "export": "orMLNDIkseG",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE9C0",
+      "ida": "0x180AAE9C0",
+      "candidates": [
+        "0xAAE9C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_abstract",
+      "export": "KsolSqQzCJT",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA10",
+      "ida": "0x180AAEA10",
+      "candidates": [
+        "0xAAEA10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_assignable_from",
+      "export": "HKwZItZhWVd",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE730",
+      "ida": "0x180AAE730",
+      "candidates": [
+        "0xAAE730"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_blittable",
+      "export": "vrDXzzTzHAv",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE9E0",
+      "ida": "0x180AAE9E0",
+      "candidates": [
+        "0xAAE9E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_enum",
+      "export": "AZjeWkhbVyC",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEB40",
+      "ida": "0x180AAEB40",
+      "candidates": [
+        "0xAAEB40"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_generic",
+      "export": "MNlemQXZQAE",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE710",
+      "ida": "0x180AAE710",
+      "candidates": [
+        "0xAAE710"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_inflated",
+      "export": "agMcuPxpIqp",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE720",
+      "ida": "0x180AAE720",
+      "candidates": [
+        "0xAAE720"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_inited",
+      "export": "GeAeWkbwXJO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE700",
+      "ida": "0x180AAE700",
+      "candidates": [
+        "0xAAE700"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_is_interface",
+      "export": "kBRVNNAILjb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEA20",
+      "ida": "0x180AAEA20",
+      "candidates": [
+        "0xAAEA20"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_class_is_subclass_of",
-      "previousExport": "OOpREPOIxEe",
       "export": "NxWPHp_XfnJ",
       "status": "resolved",
       "matchCount": 1,
@@ -377,22 +717,22 @@
       "candidates": [
         "0xAAE740"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_class_is_valuetype",
-      "previousExport": "sArWrWivyrn",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "QgpApgLZVJM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x148180",
+      "ida": "0x180148180",
+      "candidates": [
+        "0x148180"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_class_num_fields",
-      "previousExport": "fVwBPLinAVu",
       "export": "oBOwKuQMUwu",
       "status": "resolved",
       "matchCount": 1,
@@ -401,11 +741,22 @@
       "candidates": [
         "0xAAE9D0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_class_set_userdata",
+      "export": "SYfKRtsvCDr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x901750",
+      "ida": "0x180901750",
+      "candidates": [
+        "0x901750"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_class_value_size",
-      "previousExport": "RdsMjipEZSI",
       "export": "rvzTMLKCwgI",
       "status": "resolved",
       "matchCount": 1,
@@ -414,11 +765,10 @@
       "candidates": [
         "0xAAE9F0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_current_thread_get_frame_at",
-      "previousExport": "mjlycZqw_uy",
       "export": "mFBjEsLCBgF",
       "status": "resolved",
       "matchCount": 1,
@@ -427,35 +777,178 @@
       "candidates": [
         "0xAB0420"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_current_thread_get_stack_depth",
+      "export": "yHqBGRDpPKZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0540",
+      "ida": "0x180AB0540",
+      "candidates": [
+        "0xAB0540"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_current_thread_get_top_frame",
+      "export": "YOhMOKNfFrq",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0310",
+      "ida": "0x180AB0310",
+      "candidates": [
+        "0xAB0310"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_current_thread_walk_frame_stack",
+      "export": "k_HM_yxOUwa",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB01B0",
+      "ida": "0x180AB01B0",
+      "candidates": [
+        "0xAB01B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_construct",
+      "export": "NEjIBXiumEZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0D20",
+      "ida": "0x180AB0D20",
+      "candidates": [
+        "0xAB0D20"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_free",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_from_class",
+      "export": "zdXrqEeRYCm",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0B20",
+      "ida": "0x180AB0B20",
+      "candidates": [
+        "0xAB0B20"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_from_field",
+      "export": "jymagkjVmuE",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0C00",
+      "ida": "0x180AB0C00",
+      "candidates": [
+        "0xAB0C00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_from_method",
+      "export": "bMTGFOUnXhr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0B90",
+      "ida": "0x180AB0B90",
+      "candidates": [
+        "0xAB0B90"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_get_attr",
+      "export": "BHspDCGHNDK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0D10",
+      "ida": "0x180AB0D10",
+      "candidates": [
+        "0xAB0D10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_custom_attrs_has_attr",
+      "export": "MNbTfAxIqdb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0C70",
+      "ida": "0x180AB0C70",
+      "candidates": [
+        "0xAB0C70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_debug_get_method_info",
+      "export": "mQV_jnwNaIq",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0A90",
+      "ida": "0x180AB0A90",
+      "candidates": [
+        "0xAB0A90"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_debugger_set_agent_options",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_domain_assembly_open",
+      "export": "kwUVkrYQeJR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEFB0",
+      "ida": "0x180AAEFB0",
+      "candidates": [
+        "0xAAEFB0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_domain_get",
-      "previousExport": "aUnaPwCExok",
-      "export": "LtWPyhoLidH",
+      "export": "EiQlgBpbhvd",
       "status": "resolved",
       "matchCount": 1,
-      "rva": "0xAAE590",
-      "ida": "0x180AAE590",
+      "rva": "0xAAEFA0",
+      "ida": "0x180AAEFA0",
       "candidates": [
-        "0xAAE590"
+        "0xAAEFA0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_domain_get_assemblies",
-      "previousExport": "SToktayWWAW",
       "export": "CEgwOQYvqFO",
       "status": "resolved",
       "matchCount": 1,
@@ -464,11 +957,10 @@
       "candidates": [
         "0xAAEFC0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_exception_from_name_msg",
-      "previousExport": "NRhDzSuzGjA",
       "export": "gzJmvzGmsnE",
       "status": "resolved",
       "matchCount": 1,
@@ -477,44 +969,70 @@
       "candidates": [
         "0xAAEFF0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_get_flags",
+      "export": "KehzMY_GKJm",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF2D0",
+      "ida": "0x180AAF2D0",
+      "candidates": [
+        "0xAAF2D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_field_get_name",
-      "previousExport": "KINusgClTkV",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "bpbZmcGasEt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x40F0",
+      "ida": "0x1800040F0",
+      "candidates": [
+        "0x40F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_get_offset",
+      "export": "crlvcScZkMC",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF2E0",
+      "ida": "0x180AAF2E0",
+      "candidates": [
+        "0xAAF2E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_field_get_parent",
-      "previousExport": "RNMBpOZJotV",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "cEEujTMeKxt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x80420",
+      "ida": "0x180080420",
+      "candidates": [
+        "0x80420"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_field_get_type",
-      "previousExport": "etjHTCQWQtf",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "BmCgtBkwLob",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7A850",
+      "ida": "0x18007A850",
+      "candidates": [
+        "0x7A850"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_field_get_value",
-      "previousExport": "YmyUhEvrMwc",
       "export": "qAcTxNHsaFG",
       "status": "resolved",
       "matchCount": 1,
@@ -523,11 +1041,70 @@
       "candidates": [
         "0xAAF2F0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_field_get_value_object",
-      "previousExport": "ioPVfBLeYJL",
+      "export": "bnKIGpPUkvK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF300",
+      "ida": "0x180AAF300",
+      "candidates": [
+        "0xAAF300"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_has_attribute",
+      "export": "yxYpdphblDQ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF310",
+      "ida": "0x180AAF310",
+      "candidates": [
+        "0xAAF310"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_is_literal",
+      "export": "axdwxuZSRqO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF430",
+      "ida": "0x180AAF430",
+      "candidates": [
+        "0xAAF430"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_set_value",
+      "export": "pQcd_ojaBRJ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA9F3F0",
+      "ida": "0x180A9F3F0",
+      "candidates": [
+        "0xA9F3F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_set_value_object",
+      "export": "bOnsmLlzbpa",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF3B0",
+      "ida": "0x180AAF3B0",
+      "candidates": [
+        "0xAAF3B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_static_get_value",
       "export": "iHJSGedDFhH",
       "status": "resolved",
       "matchCount": 1,
@@ -536,11 +1113,46 @@
       "candidates": [
         "0xAAF410"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_field_static_set_value",
+      "export": "toKwPZFlTSS",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF420",
+      "ida": "0x180AAF420",
+      "candidates": [
+        "0xAAF420"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_format_exception",
+      "export": "lIWapAGyXAF",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF010",
+      "ida": "0x180AAF010",
+      "candidates": [
+        "0xAAF010"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_format_stack_trace",
+      "export": "QUNCjezHnSe",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF0B0",
+      "ida": "0x180AAF0B0",
+      "candidates": [
+        "0xAAF0B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_free",
-      "previousExport": "il2cpp_free",
       "export": "il2cpp_free",
       "status": "resolved",
       "matchCount": 1,
@@ -549,573 +1161,34 @@
       "candidates": [
         "0xAAE5D0"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_free_captured_memory_snapshot",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "DkxrFKbBUAA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0980",
+      "ida": "0x180AB0980",
+      "candidates": [
+        "0xAB0980"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_alloc_fixed",
+      "export": "FggrPpnIpM_",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF680",
+      "ida": "0x180AAF680",
+      "candidates": [
+        "0xAAF680"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_gc_collect",
-      "previousExport": "VrjQQchZfpF",
-      "export": "QuHCCCnxInD",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xA6EFD0",
-      "ida": "0x180A6EFD0",
-      "candidates": [
-        "0xA6EFD0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gc_is_disabled",
-      "previousExport": "npwlrd__dOT",
-      "export": "gYsBZmDHeZK",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF460",
-      "ida": "0x180AAF460",
-      "candidates": [
-        "0xAAF460"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gc_wbarrier_set_field",
-      "previousExport": "tGInsXdvXKR",
-      "export": "ppvLANywypa",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF730",
-      "ida": "0x180AAF730",
-      "candidates": [
-        "0xAAF730"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gchandle_free",
-      "previousExport": "YnCDgLFQZyU",
-      "export": "wikRxwcMrPG",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF790",
-      "ida": "0x180AAF790",
-      "candidates": [
-        "0xAAF790"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gchandle_get_target",
-      "previousExport": "il2cpp_gchandle_get_target",
-      "export": "il2cpp_gchandle_get_target",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF6F0",
-      "ida": "0x180AAF6F0",
-      "candidates": [
-        "0xAAF6F0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gchandle_new",
-      "previousExport": "yhXoStquuJF",
-      "export": "macgcTZBWKw",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF6A0",
-      "ida": "0x180AAF6A0",
-      "candidates": [
-        "0xAAF6A0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_gchandle_new_weakref",
-      "previousExport": "KsFHhhXHRIy",
-      "export": "_KkAXDntAkB",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF6C0",
-      "ida": "0x180AAF6C0",
-      "candidates": [
-        "0xAAF6C0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_get_corlib",
-      "previousExport": "rgDrACcFkNn",
-      "export": "MEvvydRhzrg",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF5B0",
-      "ida": "0x180AAF5B0",
-      "candidates": [
-        "0xAAF5B0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_get_exception_argument_null",
-      "previousExport": "hhjPuFoChax",
-      "export": "RIhDclVMwzP",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF000",
-      "ida": "0x180AAF000",
-      "candidates": [
-        "0xAAF000"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_image_get_name",
-      "previousExport": "AEtmUpm_QVO",
-      "export": "EuNGSVcTusZ",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x80420",
-      "ida": "0x180080420",
-      "candidates": [
-        "0x80420"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_init",
-      "previousExport": "il2cpp_init",
-      "export": "iXVXrGhrTXj",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE170",
-      "ida": "0x180AAE170",
-      "candidates": [
-        "0xAAE170"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_is_debugger_attached",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_method_get_class",
-      "previousExport": "QYHcRVGQoNi",
-      "export": "BmCgtBkwLob",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x7A850",
-      "ida": "0x18007A850",
-      "candidates": [
-        "0x7A850"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_method_get_declaring_type",
-      "previousExport": "mBPELOPqJXY",
-      "export": "BmCgtBkwLob",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x7A850",
-      "ida": "0x18007A850",
-      "candidates": [
-        "0x7A850"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_method_get_name",
-      "previousExport": "OERsNnZCNdE",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_method_get_return_type",
-      "previousExport": "AEtmUpm_QVO",
-      "export": "EuNGSVcTusZ",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x80420",
-      "ida": "0x180080420",
-      "candidates": [
-        "0x80420"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_method_get_token",
-      "previousExport": "NSfkCKoFcZZ",
-      "export": "btrfNAUVGNc",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xA90A0",
-      "ida": "0x1800A90A0",
-      "candidates": [
-        "0xA90A0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_monitor_enter",
-      "previousExport": "oyXDuxyisdA",
-      "export": "legIIoGfFPc",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF40",
-      "ida": "0x180AAFF40",
-      "candidates": [
-        "0xAAFF40"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_monitor_exit",
-      "previousExport": "kcbzOnPPLQb",
-      "export": "nzZeIRBLWHx",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFEC0",
-      "ida": "0x180AAFEC0",
-      "candidates": [
-        "0xAAFEC0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_monitor_pulse",
-      "previousExport": "qNtSYehSC_v",
-      "export": "sGiTYyvGHIn",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFED0",
-      "ida": "0x180AAFED0",
-      "candidates": [
-        "0xAAFED0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_monitor_pulse_all",
-      "previousExport": "JGpshtEZJqY",
-      "export": "wivVKedRnSQ",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFEE0",
-      "ida": "0x180AAFEE0",
-      "candidates": [
-        "0xAAFEE0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_monitor_try_enter",
-      "previousExport": "nYJ_wJgPdTa",
-      "export": "XciMatVgZBL",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFEB0",
-      "ida": "0x180AAFEB0",
-      "candidates": [
-        "0xAAFEB0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_object_get_virtual_method",
-      "previousExport": "zDjVTzzCfOS",
-      "export": "PgnoNSgzgSM",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFE60",
-      "ida": "0x180AAFE60",
-      "candidates": [
-        "0xAAFE60"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_object_new",
-      "previousExport": "BXKJvvmFEKR",
-      "export": "iHsFRDoWYvf",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFE70",
-      "ida": "0x180AAFE70",
-      "candidates": [
-        "0xAAFE70"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_profiler_install",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_profiler_install_allocation",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_profiler_install_enter_leave",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_profiler_install_fileio",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_profiler_install_gc",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_profiler_install_thread",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_property_get_get_method",
-      "previousExport": "gAcBZhlINEl",
-      "export": "GnJoUVCbOGk",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAF8D0",
-      "ida": "0x180AAF8D0",
-      "candidates": [
-        "0xAAF8D0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_property_get_name",
-      "previousExport": "sFxauRauhiP",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_resolve_icall",
-      "previousExport": "qMVbRwccaVN",
-      "export": "BHnyUVqrwiU",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAE5B0",
-      "ida": "0x180AAE5B0",
-      "candidates": [
-        "0xAAE5B0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_runtime_class_init",
-      "previousExport": "lhwcxEQoEfH",
-      "export": "PTPrLboMYRb",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF70",
-      "ida": "0x180AAFF70",
-      "candidates": [
-        "0xAAFF70"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_runtime_invoke",
-      "previousExport": "oBGsYjJdmzU",
-      "export": "QUnIxupvmev",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF60",
-      "ida": "0x180AAFF60",
-      "candidates": [
-        "0xAAFF60"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_runtime_invoke_convert_args",
-      "previousExport": "colTXgxBNUV",
-      "export": "wxwmdwXHzJB",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF50",
-      "ida": "0x180AAFF50",
-      "candidates": [
-        "0xAAFF50"
-      ]
-    },
-    {
-      "api": "il2cpp_runtime_object_init",
-      "previousExport": "kazex_Ijzhn",
-      "export": "FBUGXYsXIIL",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF80",
-      "ida": "0x180AAFF80",
-      "candidates": [
-        "0xAAFF80"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_runtime_object_init_exception",
-      "previousExport": "TwxPHzfmFGk",
-      "export": "mvyXSDjTwvW",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFF90",
-      "ida": "0x180AAFF90",
-      "candidates": [
-        "0xAAFF90"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_stats_dump_to_file",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_string_chars",
-      "previousExport": "ObZAQsspqzt",
-      "export": "ormYIYJdPLW",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x93F2F0",
-      "ida": "0x18093F2F0",
-      "candidates": [
-        "0x93F2F0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_string_length",
-      "previousExport": "FJTvsCFaJMZ",
-      "export": "aspbbTBeNlM",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0x79BD0",
-      "ida": "0x180079BD0",
-      "candidates": [
-        "0x79BD0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_string_new",
-      "previousExport": "lSeVdfjHmYS",
-      "export": "FKreBiXiPmS",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAB0010",
-      "ida": "0x180AB0010",
-      "candidates": [
-        "0xAB0010"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_string_new_utf16",
-      "previousExport": "AwVDLCtHMIB",
-      "export": "L_DiRaHg_Oo",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAAFFC0",
-      "ida": "0x180AAFFC0",
-      "candidates": [
-        "0xAAFFC0"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_thread_attach",
-      "previousExport": "jrxmnVzHCiN",
-      "export": "oYcjpYzNWWJ",
-      "status": "resolved",
-      "matchCount": 1,
-      "rva": "0xAB0150",
-      "ida": "0x180AB0150",
-      "candidates": [
-        "0xAB0150"
-      ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_thread_current",
-      "previousExport": "sdwCiSmJKwq",
       "export": "RxysG_ccsuK",
       "status": "resolved",
       "matchCount": 1,
@@ -1124,11 +1197,1282 @@
       "candidates": [
         "0xAAF440"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_collect_a_little",
+      "export": "gYsBZmDHeZK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF460",
+      "ida": "0x180AAF460",
+      "candidates": [
+        "0xAAF460"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_disable",
+      "export": "QuHCCCnxInD",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA6EFD0",
+      "ida": "0x180A6EFD0",
+      "candidates": [
+        "0xA6EFD0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_enable",
+      "export": "JtkJvM_WCKb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA6EF80",
+      "ida": "0x180A6EF80",
+      "candidates": [
+        "0xA6EF80"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_foreach_heap",
+      "export": "JiAHtLQhzZr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5F0",
+      "ida": "0x180AAF5F0",
+      "candidates": [
+        "0xAAF5F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_free_fixed",
+      "export": "SWTVb__rpEg",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF690",
+      "ida": "0x180AAF690",
+      "candidates": [
+        "0xAAF690"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_get_heap_size",
+      "export": "Gol_rukoGIP",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5E0",
+      "ida": "0x180AAF5E0",
+      "candidates": [
+        "0xAAF5E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_get_max_time_slice_ns",
+      "export": "MEvvydRhzrg",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5B0",
+      "ida": "0x180AAF5B0",
+      "candidates": [
+        "0xAAF5B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_get_used_size",
+      "export": "PdNKhFqj_ep",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5D0",
+      "ida": "0x180AAF5D0",
+      "candidates": [
+        "0xAAF5D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_has_strict_wbarriers",
+      "export": "QdvMjMEfGEH",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1F60E0",
+      "ida": "0x1801F60E0",
+      "candidates": [
+        "0x1F60E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_is_disabled",
+      "export": "rdcBPyAmXpZ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF490",
+      "ida": "0x180AAF490",
+      "candidates": [
+        "0xAAF490"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_is_incremental",
+      "export": "aVIEHkU_aPS",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5A0",
+      "ida": "0x180AAF5A0",
+      "candidates": [
+        "0xAAF5A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_set_external_allocation_tracker",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_set_external_wbarrier_tracker",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_set_max_time_slice_ns",
+      "export": "LibuLbQQTwg",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF5C0",
+      "ida": "0x180AAF5C0",
+      "candidates": [
+        "0xAAF5C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_set_mode",
+      "export": "DoBvRsPtGXQ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF4A0",
+      "ida": "0x180AAF4A0",
+      "candidates": [
+        "0xAAF4A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_start_incremental_collection",
+      "export": "gjnSFyflogU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF470",
+      "ida": "0x180AAF470",
+      "candidates": [
+        "0xAAF470"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gc_wbarrier_set_field",
+      "export": "ppvLANywypa",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF730",
+      "ida": "0x180AAF730",
+      "candidates": [
+        "0xAAF730"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gchandle_foreach_get_target",
+      "export": "UwNjIuGOVga",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF700",
+      "ida": "0x180AAF700",
+      "candidates": [
+        "0xAAF700"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gchandle_free",
+      "export": "wikRxwcMrPG",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF790",
+      "ida": "0x180AAF790",
+      "candidates": [
+        "0xAAF790"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gchandle_get_target",
+      "export": "il2cpp_gchandle_get_target",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF6F0",
+      "ida": "0x180AAF6F0",
+      "candidates": [
+        "0xAAF6F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gchandle_new",
+      "export": "macgcTZBWKw",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF6A0",
+      "ida": "0x180AAF6A0",
+      "candidates": [
+        "0xAAF6A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_gchandle_new_weakref",
+      "export": "_KkAXDntAkB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF6C0",
+      "ida": "0x180AAF6C0",
+      "candidates": [
+        "0xAAF6C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_get_corlib",
+      "export": "LtWPyhoLidH",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE590",
+      "ida": "0x180AAE590",
+      "candidates": [
+        "0xAAE590"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_get_exception_argument_null",
+      "export": "RIhDclVMwzP",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF000",
+      "ida": "0x180AAF000",
+      "candidates": [
+        "0xAAF000"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_assembly",
+      "export": "cEEujTMeKxt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x80420",
+      "ida": "0x180080420",
+      "candidates": [
+        "0x80420"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_class",
+      "export": "FxsshsDsJlQ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0930",
+      "ida": "0x180AB0930",
+      "candidates": [
+        "0xAB0930"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_class_count",
+      "export": "NmRHXzqdRCd",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1D2A10",
+      "ida": "0x1801D2A10",
+      "candidates": [
+        "0x1D2A10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_entry_point",
+      "export": "UTQQPuiPkiI",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0910",
+      "ida": "0x180AB0910",
+      "candidates": [
+        "0xAB0910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_filename",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_image_get_name",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_init",
+      "export": "jGMAbBUqKbr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE040",
+      "ida": "0x180AAE040",
+      "candidates": [
+        "0xAAE040"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_init_utf16",
+      "export": "linxhJzCzpT",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE070",
+      "ida": "0x180AAE070",
+      "candidates": [
+        "0xAAE070"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_is_debugger_attached",
+      "export": "oSjwlUpqkyX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0A70",
+      "ida": "0x180AB0A70",
+      "candidates": [
+        "0xAB0A70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_is_vm_thread",
+      "export": "xcTy__DTPCr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB01A0",
+      "ida": "0x180AB01A0",
+      "candidates": [
+        "0xAB01A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_class",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_declaring_type",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_flags",
+      "export": "Jetv_gPaEiB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFAF0",
+      "ida": "0x180AAFAF0",
+      "candidates": [
+        "0xAAFAF0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_from_reflection",
+      "export": "BmCgtBkwLob",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7A850",
+      "ida": "0x18007A850",
+      "candidates": [
+        "0x7A850"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_name",
+      "export": "QdJhQEJilhG",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x9AE70",
+      "ida": "0x18009AE70",
+      "candidates": [
+        "0x9AE70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_object",
+      "export": "AMLoqcWyKkc",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF9E0",
+      "ida": "0x180AAF9E0",
+      "candidates": [
+        "0xAAF9E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_param",
+      "export": "mMvPoCONwot",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFA30",
+      "ida": "0x180AAFA30",
+      "candidates": [
+        "0xAAFA30"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_param_count",
+      "export": "gaWkomeZOTI",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFA20",
+      "ida": "0x180AAFA20",
+      "candidates": [
+        "0xAAFA20"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_param_name",
+      "export": "FyOENowWFHC",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFB00",
+      "ida": "0x180AAFB00",
+      "candidates": [
+        "0xAAFB00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_return_type",
+      "export": "cEEujTMeKxt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x80420",
+      "ida": "0x180080420",
+      "candidates": [
+        "0x80420"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_get_token",
+      "export": "btrfNAUVGNc",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xA90A0",
+      "ida": "0x1800A90A0",
+      "candidates": [
+        "0xA90A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_has_attribute",
+      "export": "lkjFRnNxQvt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFA50",
+      "ida": "0x180AAFA50",
+      "candidates": [
+        "0xAAFA50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_is_generic",
+      "export": "SkOhGlwtWWd",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF9F0",
+      "ida": "0x180AAF9F0",
+      "candidates": [
+        "0xAAF9F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_is_inflated",
+      "export": "pjVcruvXDJp",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFA00",
+      "ida": "0x180AAFA00",
+      "candidates": [
+        "0xAAFA00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_method_is_instance",
+      "export": "metCQzcvhFd",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFA10",
+      "ida": "0x180AAFA10",
+      "candidates": [
+        "0xAAFA10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_enter",
+      "export": "mzzIMXNeKvR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFEA0",
+      "ida": "0x180AAFEA0",
+      "candidates": [
+        "0xAAFEA0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_exit",
+      "export": "nzZeIRBLWHx",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFEC0",
+      "ida": "0x180AAFEC0",
+      "candidates": [
+        "0xAAFEC0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_pulse",
+      "export": "sGiTYyvGHIn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFED0",
+      "ida": "0x180AAFED0",
+      "candidates": [
+        "0xAAFED0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_pulse_all",
+      "export": "wivVKedRnSQ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFEE0",
+      "ida": "0x180AAFEE0",
+      "candidates": [
+        "0xAAFEE0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_try_enter",
+      "export": "XciMatVgZBL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFEB0",
+      "ida": "0x180AAFEB0",
+      "candidates": [
+        "0xAAFEB0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_try_wait",
+      "export": "legIIoGfFPc",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF40",
+      "ida": "0x180AAFF40",
+      "candidates": [
+        "0xAAFF40"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_monitor_wait",
+      "export": "HpzKQFwBtTV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF30",
+      "ida": "0x180AAFF30",
+      "candidates": [
+        "0xAAFF30"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_native_stack_trace",
+      "export": "il2cpp_native_stack_trace",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF1E0",
+      "ida": "0x180AAF1E0",
+      "candidates": [
+        "0xAAF1E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_get_class",
+      "export": "bpbZmcGasEt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x40F0",
+      "ida": "0x1800040F0",
+      "candidates": [
+        "0x40F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_get_size",
+      "export": "DkkiBXbXeel",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFE00",
+      "ida": "0x180AAFE00",
+      "candidates": [
+        "0xAAFE00"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_get_virtual_method",
+      "export": "PgnoNSgzgSM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFE60",
+      "ida": "0x180AAFE60",
+      "candidates": [
+        "0xAAFE60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_header_size",
+      "export": "JSyUBXMpONK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x14C890",
+      "ida": "0x18014C890",
+      "candidates": [
+        "0x14C890"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_new",
+      "export": "iHsFRDoWYvf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFE70",
+      "ida": "0x180AAFE70",
+      "candidates": [
+        "0xAAFE70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_object_unbox",
+      "export": "aXqoOEskOip",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x949620",
+      "ida": "0x180949620",
+      "candidates": [
+        "0x949620"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_offset_of_array_bounds_in_array_object_header",
+      "export": "JSyUBXMpONK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x14C890",
+      "ida": "0x18014C890",
+      "candidates": [
+        "0x14C890"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_offset_of_array_length_in_array_object_header",
+      "export": "UJOANnAZgco",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF7B0",
+      "ida": "0x180AAF7B0",
+      "candidates": [
+        "0xAAF7B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_override_stack_backtrace",
+      "export": "o_mYhDlkeWb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0640",
+      "ida": "0x180AB0640",
+      "candidates": [
+        "0xAB0640"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_property_get_flags",
+      "export": "NmRHXzqdRCd",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x1D2A10",
+      "ida": "0x1801D2A10",
+      "candidates": [
+        "0x1D2A10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_property_get_get_method",
+      "export": "UpxOqXasgLu",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x44DD80",
+      "ida": "0x18044DD80",
+      "candidates": [
+        "0x44DD80"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_property_get_name",
+      "export": "BmCgtBkwLob",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x7A850",
+      "ida": "0x18007A850",
+      "candidates": [
+        "0x7A850"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_property_get_parent",
+      "export": "GEQaqHTaHNz",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79C50",
+      "ida": "0x180079C50",
+      "candidates": [
+        "0x79C50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_property_get_set_method",
+      "export": "cEEujTMeKxt",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x80420",
+      "ida": "0x180080420",
+      "candidates": [
+        "0x80420"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_raise_exception",
+      "export": "RTYlriDYoeh",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEFE0",
+      "ida": "0x180AAEFE0",
+      "candidates": [
+        "0xAAEFE0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_register_debugger_agent_transport",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_register_log_callback",
+      "export": "tpvsrZVFgjs",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0A60",
+      "ida": "0x180AB0A60",
+      "candidates": [
+        "0xAB0A60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_resolve_icall",
+      "export": "BHnyUVqrwiU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE5B0",
+      "ida": "0x180AAE5B0",
+      "candidates": [
+        "0xAAE5B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_class_init",
+      "export": "PTPrLboMYRb",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF70",
+      "ida": "0x180AAFF70",
+      "candidates": [
+        "0xAAFF70"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_invoke",
+      "export": "QUnIxupvmev",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF60",
+      "ida": "0x180AAFF60",
+      "candidates": [
+        "0xAAFF60"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_invoke_convert_args",
+      "export": "wxwmdwXHzJB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF50",
+      "ida": "0x180AAFF50",
+      "candidates": [
+        "0xAAFF50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_object_init",
+      "export": "FBUGXYsXIIL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF80",
+      "ida": "0x180AAFF80",
+      "candidates": [
+        "0xAAFF80"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_object_init_exception",
+      "export": "mvyXSDjTwvW",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFF90",
+      "ida": "0x180AAFF90",
+      "candidates": [
+        "0xAAFF90"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_runtime_unhandled_exception_policy_set",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_commandline_arguments",
+      "export": "paihXAArYUu",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE210",
+      "ida": "0x180AAE210",
+      "candidates": [
+        "0xAAE210"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_commandline_arguments_utf16",
+      "export": "FBfjbhHMGer",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE220",
+      "ida": "0x180AAE220",
+      "candidates": [
+        "0xAAE220"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_config",
+      "export": "TGlBkTxhoYf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE4C0",
+      "ida": "0x180AAE4C0",
+      "candidates": [
+        "0xAAE4C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_config_dir",
+      "export": "hEzQkBiZgjk",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE180",
+      "ida": "0x180AAE180",
+      "candidates": [
+        "0xAAE180"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_config_utf16",
+      "export": "OXrJwfBqQzr",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE3E0",
+      "ida": "0x180AAE3E0",
+      "candidates": [
+        "0xAAE3E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_data_dir",
+      "export": "irdrDOvKaOR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE1B0",
+      "ida": "0x180AAE1B0",
+      "candidates": [
+        "0xAAE1B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_default_thread_affinity",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_find_plugin_callback",
+      "export": "WqxgktLxFAn",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0A50",
+      "ida": "0x180AB0A50",
+      "candidates": [
+        "0xAB0A50"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_memory_callbacks",
+      "export": "dBYjubosZAy",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE560",
+      "ida": "0x180AAE560",
+      "candidates": [
+        "0xAAE560"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_set_temp_dir",
+      "export": "HKysZkaWtHx",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE1E0",
+      "ida": "0x180AAE1E0",
+      "candidates": [
+        "0xAAE1E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_shutdown",
+      "export": "iXVXrGhrTXj",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAE170",
+      "ida": "0x180AAE170",
+      "candidates": [
+        "0xAAE170"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_start_gc_world",
+      "export": "mXJhxmXFBzM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF650",
+      "ida": "0x180AAF650",
+      "candidates": [
+        "0xAAF650"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_stats_dump_to_file",
+      "export": "XytPiVLSXCA",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEBF0",
+      "ida": "0x180AAEBF0",
+      "candidates": [
+        "0xAAEBF0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_stats_get_value",
+      "export": "L_XUJKvBqnf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAEF10",
+      "ida": "0x180AAEF10",
+      "candidates": [
+        "0xAAEF10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_stop_gc_world",
+      "export": "vlwGUzPMfvO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF620",
+      "ida": "0x180AAF620",
+      "candidates": [
+        "0xAAF620"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_chars",
+      "export": "ormYIYJdPLW",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x93F2F0",
+      "ida": "0x18093F2F0",
+      "candidates": [
+        "0x93F2F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_intern",
+      "export": "MvQkGdKFsOK",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0020",
+      "ida": "0x180AB0020",
+      "candidates": [
+        "0xAB0020"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_is_interned",
+      "export": "YffigYHfIsa",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0030",
+      "ida": "0x180AB0030",
+      "candidates": [
+        "0xAB0030"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_length",
+      "export": "aspbbTBeNlM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x79BD0",
+      "ida": "0x180079BD0",
+      "candidates": [
+        "0x79BD0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_new",
+      "export": "fGGxfJQudbL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFFA0",
+      "ida": "0x180AAFFA0",
+      "candidates": [
+        "0xAAFFA0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_new_len",
+      "export": "FKreBiXiPmS",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0010",
+      "ida": "0x180AB0010",
+      "candidates": [
+        "0xAB0010"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_new_utf16",
+      "export": "L_DiRaHg_Oo",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFFC0",
+      "ida": "0x180AAFFC0",
+      "candidates": [
+        "0xAAFFC0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_string_new_wrapper",
+      "export": "fGGxfJQudbL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAFFA0",
+      "ida": "0x180AAFFA0",
+      "candidates": [
+        "0xAAFFA0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_attach",
+      "export": "oYcjpYzNWWJ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0150",
+      "ida": "0x180AB0150",
+      "candidates": [
+        "0xAB0150"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_current",
+      "export": "CFCNmWgmOqP",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0120",
+      "ida": "0x180AB0120",
+      "candidates": [
+        "0xAB0120"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_thread_detach",
-      "previousExport": "yHfsvPGJEQl",
       "export": "ryUgzTzmZUp",
       "status": "resolved",
       "matchCount": 1,
@@ -1137,11 +2481,142 @@
       "candidates": [
         "0xAB0160"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_get_all_attached_threads",
+      "export": "POvoavzjjgL",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0180",
+      "ida": "0x180AB0180",
+      "candidates": [
+        "0xAB0180"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_get_frame_at",
+      "export": "JbKd_rQmCPM",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0430",
+      "ida": "0x180AB0430",
+      "candidates": [
+        "0xAB0430"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_get_stack_depth",
+      "export": "VLjfTwiNhlm",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0560",
+      "ida": "0x180AB0560",
+      "candidates": [
+        "0xAB0560"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_get_top_frame",
+      "export": "GPNWhwVgomj",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0320",
+      "ida": "0x180AB0320",
+      "candidates": [
+        "0xAB0320"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_thread_walk_frame_stack",
+      "export": "abGVMYTYaEX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0210",
+      "ida": "0x180AB0210",
+      "candidates": [
+        "0xAB0210"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_equals",
+      "export": "zmmRebpCnWB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB08D0",
+      "ida": "0x180AB08D0",
+      "candidates": [
+        "0xAB08D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_assembly_qualified_name",
+      "export": "ZrVlpDfSXUO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0750",
+      "ida": "0x180AB0750",
+      "candidates": [
+        "0xAB0750"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_attrs",
+      "export": "oruEMDa_zci",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB08C0",
+      "ida": "0x180AB08C0",
+      "candidates": [
+        "0xAB08C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_class_or_element_class",
+      "export": "iIwVbqAInoB",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0670",
+      "ida": "0x180AB0670",
+      "candidates": [
+        "0xAB0670"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_name",
+      "export": "ecdboIMdBOs",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB06A0",
+      "ida": "0x180AB06A0",
+      "candidates": [
+        "0xAB06A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_name_chunked",
+      "export": "_HiwwwfKlMf",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0DC0",
+      "ida": "0x180AB0DC0",
+      "candidates": [
+        "0xAB0DC0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_type_get_object",
-      "previousExport": "vxafr_czmQv",
       "export": "aCHtpdNWyZq",
       "status": "resolved",
       "matchCount": 1,
@@ -1150,66 +2625,166 @@
       "candidates": [
         "0xAB0650"
       ],
-      "resolutionSource": "validated-runtime-export"
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_reflection_name",
+      "export": "NHEQHqsSUDk",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0800",
+      "ida": "0x180AB0800",
+      "candidates": [
+        "0xAB0800"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_get_type",
+      "export": "wTiSnyOAChQ",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0660",
+      "ida": "0x180AB0660",
+      "candidates": [
+        "0xAB0660"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_is_byref",
+      "export": "UoSqzjoVqVG",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB08B0",
+      "ida": "0x180AB08B0",
+      "candidates": [
+        "0xAB08B0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_is_pointer_type",
+      "export": "KHIFIaazMEs",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0900",
+      "ida": "0x180AB0900",
+      "candidates": [
+        "0xAB0900"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_type_is_static",
+      "export": "KfZXGBahSvR",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB08F0",
+      "ida": "0x180AB08F0",
+      "candidates": [
+        "0xAB08F0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_unhandled_exception",
+      "export": "SHbjRQtBvYi",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF1D0",
+      "ida": "0x180AAF1D0",
+      "candidates": [
+        "0xAAF1D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_unity_install_unitytls_interface",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "ztIfnLoNXby",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAB0B10",
+      "ida": "0x180AB0B10",
+      "candidates": [
+        "0xAB0B10"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
-      "api": "il2cpp_unity_liveness_calculation_begin",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
-    },
-    {
-      "api": "il2cpp_unity_liveness_calculation_end",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "api": "il2cpp_unity_liveness_allocate_struct",
+      "export": "ggQgBWSfTpU",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF7C0",
+      "ida": "0x180AAF7C0",
+      "candidates": [
+        "0xAAF7C0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_from_root",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "QwuYdVvBAoO",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF870",
+      "ida": "0x180AAF870",
+      "candidates": [
+        "0xAAF870"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_unity_liveness_calculation_from_statics",
-      "previousExport": "XgKrCtTBLkt",
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "export": "GnJoUVCbOGk",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF8D0",
+      "ida": "0x180AAF8D0",
+      "candidates": [
+        "0xAAF8D0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_unity_liveness_finalize",
+      "export": "rcBBQWYCEXN",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF8E0",
+      "ida": "0x180AAF8E0",
+      "candidates": [
+        "0xAAF8E0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_unity_liveness_free_struct",
+      "export": "uOXImSeiMjV",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0xAAF9A0",
+      "ida": "0x180AAF9A0",
+      "candidates": [
+        "0xAAF9A0"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
+    },
+    {
+      "api": "il2cpp_unity_set_android_network_up_state_func",
+      "export": "aUxCtKGKZPX",
+      "status": "resolved",
+      "matchCount": 1,
+      "rva": "0x4910",
+      "ida": "0x180004910",
+      "candidates": [
+        "0x4910"
+      ],
+      "resolutionSource": "onyx-exact-build-export-rva"
     },
     {
       "api": "il2cpp_value_box",
-      "previousExport": "dUJvgfcCkwL",
       "export": "pGJC_xVrNLt",
       "status": "resolved",
       "matchCount": 1,
@@ -1218,18 +2793,7 @@
       "candidates": [
         "0xAAFE90"
       ],
-      "resolutionSource": "validated-runtime-export"
-    },
-    {
-      "api": "il2cpp_array_new",
-      "previousExport": null,
-      "export": null,
-      "status": "implemented",
-      "matchCount": 0,
-      "rva": null,
-      "ida": null,
-      "candidates": [],
-      "resolutionSource": "managed-runtime-layout"
+      "resolutionSource": "onyx-exact-build-export-rva"
     }
   ]
 }
